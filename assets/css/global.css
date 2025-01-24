@@ -1,0 +1,25 @@
+:root {
+    --bg-primary-color: #D25B2E;
+    --bg-secondary-color: #254e70;
+
+    --txt-primary-color: #D25B2E;
+    --txt-secondary-color: #254e70;
+    --txt-light-color: #F0F0F0;
+    --txt-dark-color: #1C1E24;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--txt-dark-color);
+}
