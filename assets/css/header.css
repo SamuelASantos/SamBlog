@@ -1,0 +1,59 @@
+@import url(global.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-dark-color);
+    padding: 20px;
+    align-items: center;
+    height: 70px;
+}
+
+header .left img {
+    width: 120px;
+    margin-left: 30px;
+}
+
+header .right {
+    margin-right: 30px;
+}
+
+header .right li {
+    display: none;
+}
+
+header .right img {
+    width: 30px;
+    cursor: pointer;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: var(--txt-light-color);
+    font-size: 2rem;
+    padding-block: 1.6rem;
+}
+
+header nav a:hover {
+    color: var(--txt-primary-color);
+}
+
+main .hero {
+    height: calc(100vh - 70px);
+    background-color: var(--bg--light-color);
+}
+
+@media (width > 500px) {
+    .hamburger {
+        display: none;
+    }
+
+    header .right li {
+        display: block;
+    }
+
+}
