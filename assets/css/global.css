@@ -2,6 +2,7 @@
     --bg-primary-color: #D25B2E;
     --bg-secondary-color: #254e70;
     --bg-dark-color: #1C1E24;
+    --bg-light-color: #F0F0F0;
 
     --txt-primary-color: #D25B2E;
     --txt-secondary-color: #254e70;
@@ -23,4 +24,8 @@ html {
 
 body {
     font-size: 1.6rem;
+}
+
+hr {
+    margin: 20px;
 }

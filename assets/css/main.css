@@ -1,0 +1,94 @@
+@import url(global.css);
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero img {
+    height: 65px;
+}
+
+.tags-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+.icons img {
+    height: 20px;
+}
+
+.tags {
+    display: flex;
+    flex: 8;
+    justify-content: space-evenly;
+}
+
+.tags a {
+    color: var(--txt-secondary-color);
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    gap: 20px;
+    max-width: 1280px;
+    flex-wrap: wrap;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-light-color);
+    max-width: 400px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.article .article-header {
+    max-width: 400px;
+    margin: auto;
+}
+
+.article .article-header img {
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.article .article-body .title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.article .article-body .description {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.article-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+@media (width > 500px) {
+    article {
+        flex-direction: row;
+    }
+}
